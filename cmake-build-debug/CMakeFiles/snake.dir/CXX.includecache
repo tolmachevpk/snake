@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Peter/CLionProjects/snake/main.cpp
+iostream
+-
+tui.h
+/Users/Peter/CLionProjects/snake/tui.h
+
+/Users/Peter/CLionProjects/snake/tui.h
+view.h
+/Users/Peter/CLionProjects/snake/view.h
+sys/ioctl.h
+-
+unistd.h
+-
+
+/Users/Peter/CLionProjects/snake/view.h
+
